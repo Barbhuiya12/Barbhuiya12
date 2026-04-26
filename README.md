@@ -189,49 +189,108 @@ across South Asia and the Himalayas; nonstationary FFA.
 <!-- ░░░░░░░░░░░░░░░░░░░░░  GITHUB STATS  ░░░░░░░░░░░░░░░░░░░░░ -->
 ## 📊 &nbsp;GitHub Activity
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Barbhuiya12&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&icon_color=f59e0b&title_color=f59e0b" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Barbhuiya12&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=f59e0b" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Barbhuiya12&theme=tokyonight&hide_border=true&stroke=f59e0b&ring=f59e0b&fire=f59e0b&currStreakLabel=f59e0b" />
-</p>
+<a href="https://github.com/Barbhuiya12">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Barbhuiya12&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&icon_color=f59e0b&title_color=f59e0b&bg_color=0d1117&ring_color=f59e0b&card_width=480" />
+</a>
+<a href="https://github.com/Barbhuiya12">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Barbhuiya12&layout=donut-vertical&theme=tokyonight&hide_border=true&langs_count=6&title_color=f59e0b&bg_color=0d1117&hide=html,css" />
+</a>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Barbhuiya12&theme=tokyo-night&hide_border=true&area=true&color=f59e0b&line=f59e0b&point=ffffff" />
-</p>
+<br/>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Barbhuiya12&theme=tokyonight&no-frame=true&column=7&margin-w=10" />
-</p>
+<img src="https://streak-stats.demolab.com/?user=Barbhuiya12&theme=tokyonight&hide_border=true&background=0d1117&stroke=f59e0b&ring=f59e0b&fire=f59e0b&currStreakLabel=f59e0b&sideLabels=8b949e&dates=8b949e" />
 
-<!-- Snake contribution animation (requires the snake.yml workflow on user's profile repo) -->
-<p align="center">
-  <img alt="snake gif" src="https://raw.githubusercontent.com/Barbhuiya12/Barbhuiya12/output/github-contribution-grid-snake-dark.svg" />
-</p>
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Barbhuiya12&theme=tokyo-night&hide_border=true&area=true&color=f59e0b&line=f59e0b&point=ffffff&bg_color=0d1117&title_color=f59e0b" />
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Barbhuiya12&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" />
+
+<br/><br/>
+
+<!-- Snake contribution animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Barbhuiya12/Barbhuiya12/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Barbhuiya12/Barbhuiya12/output/github-contribution-grid-snake.svg" />
+  <img alt="snake animation" src="https://raw.githubusercontent.com/Barbhuiya12/Barbhuiya12/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
 
 ---
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░  PINNED REPOS  ░░░░░░░░░░░░░░░░░░░░░ -->
 ## 📌 &nbsp;Pinned Research Code
 
-<p align="center">
-  <a href="https://github.com/Barbhuiya12/Hydrology-">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Barbhuiya12&repo=Hydrology-&theme=tokyonight&hide_border=true&title_color=f59e0b&icon_color=f59e0b" />
-  </a>
-  <a href="https://github.com/Barbhuiya12/AI4DRM">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Barbhuiya12&repo=AI4DRM&theme=tokyonight&hide_border=true&title_color=f59e0b&icon_color=f59e0b" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Barbhuiya12/Visualization-With-python">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Barbhuiya12&repo=Visualization-With-python&theme=tokyonight&hide_border=true&title_color=f59e0b&icon_color=f59e0b" />
-  </a>
-  <a href="https://github.com/Barbhuiya12/Portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Barbhuiya12&repo=Portfolio&theme=tokyonight&hide_border=true&title_color=f59e0b&icon_color=f59e0b" />
-  </a>
-</p>
+<table align="center">
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">💧 Hydrology-</h3>
+      <p align="center">Notebooks &amp; scripts for hydrological analysis — preprocessing, calibration, evaluation.</p>
+      <p align="center"><img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /></p>
+      <p align="center"><a href="https://github.com/Barbhuiya12/Hydrology-"><img src="https://img.shields.io/badge/Open%20Repo%20%E2%86%92-0d1117?style=for-the-badge&logo=github&logoColor=f59e0b"/></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🛰 AI4DRM</h3>
+      <p align="center">AI for Disaster Risk Management — flood, landslide and cloudburst analytics.</p>
+      <p align="center"><img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/Remote%20Sensing-22c55e?style=flat-square" /></p>
+      <p align="center"><a href="https://github.com/Barbhuiya12/AI4DRM"><img src="https://img.shields.io/badge/Open%20Repo%20%E2%86%92-0d1117?style=for-the-badge&logo=github&logoColor=f59e0b"/></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">📊 Visualization-With-python</h3>
+      <p align="center">Geospatial &amp; hydrologic data viz recipes — Matplotlib, Cartopy, Plotly.</p>
+      <p align="center"><img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/Cartopy-1f6feb?style=flat-square" /></p>
+      <p align="center"><a href="https://github.com/Barbhuiya12/Visualization-With-python"><img src="https://img.shields.io/badge/Open%20Repo%20%E2%86%92-0d1117?style=for-the-badge&logo=github&logoColor=f59e0b"/></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🌐 Portfolio</h3>
+      <p align="center">Source for <a href="https://barbhuiya12.github.io/Portfolio/">barbhuiya12.github.io/Portfolio</a> — React + TypeScript + Vite.</p>
+      <p align="center"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" /></p>
+      <p align="center"><a href="https://github.com/Barbhuiya12/Portfolio"><img src="https://img.shields.io/badge/Open%20Repo%20%E2%86%92-0d1117?style=for-the-badge&logo=github&logoColor=f59e0b"/></a></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░  SIDE PROJECTS  ░░░░░░░░░░░░░░░░░░░░░ -->
+## 🚀 &nbsp;Side Projects & Lab Work
+
+<table align="center">
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🏔 ICCDRH</h3>
+      <p align="center"><b>International Conference on Climate, Disaster Risk &amp; Hydrology</b><br/>Conference website built and maintained for the IIT Mandi research group — landing pages, schedule, speakers, registration flow.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black" />
+      </p>
+      <p align="center">
+        <a href="https://research.iitmandi.ac.in/iccdrh/"><img src="https://img.shields.io/badge/Live%20Site-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+        <a href="https://github.com/Barbhuiya12/iccdrh"><img src="https://img.shields.io/badge/Source-0d1117?style=for-the-badge&logo=github&logoColor=f59e0b"/></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🌊 INCLINE</h3>
+      <p align="center"><b>Indian Centre for Climate &amp; Land-surface Investigations</b><br/>Group website for IIT Mandi's hydroclimate &amp; land-surface research lab — research themes, people, publications, datasets.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Web-1e3a8a?style=flat-square&logo=jamstack&logoColor=white" />
+        <img src="https://img.shields.io/badge/Lab%20Site-f59e0b?style=flat-square" />
+        <img src="https://img.shields.io/badge/IIT%20Mandi-0c4a6e?style=flat-square" />
+      </p>
+      <p align="center">
+        <a href="https://incline.iitmandi.ac.in"><img src="https://img.shields.io/badge/Live%20Site-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
