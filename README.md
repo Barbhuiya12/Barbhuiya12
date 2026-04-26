@@ -208,10 +208,6 @@ across South Asia and the Himalayas; nonstationary FFA.
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Barbhuiya12&theme=tokyonight&no-frame=true&column=7&margin-w=10&margin-h=10" />
-
-<br/><br/>
-
 <!-- Profile summary cards (works without any workflow) -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Barbhuiya12&theme=tokyonight" />
 
