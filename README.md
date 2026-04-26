@@ -259,14 +259,16 @@ across South Asia and the Himalayas; nonstationary FFA.
 
 ---
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░  SIDE PROJECTS  ░░░░░░░░░░░░░░░░░░░░░ -->
-## 🚀 &nbsp;Side Projects & Lab Work
+<!-- ░░░░░░░░░░░░░░░░░░░░░  HOBBY PROJECTS  ░░░░░░░░░░░░░░░░░░░░░ -->
+## 🎨 &nbsp;Built for Fun · Hobby Projects
+
+<sub align="center"><i>Side things I tinker with after-hours — web stuff for the research community I'm part of.</i></sub>
 
 <table align="center">
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">🏔 ICCDRH</h3>
-      <p align="center"><b>International Conference on Climate, Disaster Risk &amp; Hydrology</b><br/>Conference website built and maintained for the IIT Mandi research group — landing pages, schedule, speakers, registration flow.</p>
+      <p align="center"><b>International Conference on Climate, Disaster Risk &amp; Hydrology</b><br/>Conference website I built and maintain for the IIT Mandi research group — landing pages, schedule, speakers, registration flow.</p>
       <p align="center">
         <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
         <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
@@ -274,15 +276,14 @@ across South Asia and the Himalayas; nonstationary FFA.
       </p>
       <p align="center">
         <a href="https://research.iitmandi.ac.in/iccdrh/"><img src="https://img.shields.io/badge/Live%20Site-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
-        <a href="https://github.com/Barbhuiya12/iccdrh"><img src="https://img.shields.io/badge/Source-0d1117?style=for-the-badge&logo=github&logoColor=f59e0b"/></a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">🌊 INCLINE</h3>
-      <p align="center"><b>Indian Centre for Climate &amp; Land-surface Investigations</b><br/>Group website for IIT Mandi's hydroclimate &amp; land-surface research lab — research themes, people, publications, datasets.</p>
+      <p align="center"><b>Indian Climate Information Explorer</b><br/>Essential data and tools for climate adaptation, resiliency building, and community engagement — built for IIT Mandi.</p>
       <p align="center">
         <img src="https://img.shields.io/badge/Web-1e3a8a?style=flat-square&logo=jamstack&logoColor=white" />
-        <img src="https://img.shields.io/badge/Lab%20Site-f59e0b?style=flat-square" />
+        <img src="https://img.shields.io/badge/Climate%20Data-f59e0b?style=flat-square" />
         <img src="https://img.shields.io/badge/IIT%20Mandi-0c4a6e?style=flat-square" />
       </p>
       <p align="center">
