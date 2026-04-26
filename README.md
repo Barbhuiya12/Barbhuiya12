@@ -22,7 +22,7 @@
   <a href="https://orcid.org/0000-0003-1278-5151"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/siddik-barbhuiya-65888871/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://www.researchgate.net/profile/Siddik-Barbhuiya"><img alt="ResearchGate" src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" /></a>
-  <a href="mailto:siddikab@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:siddikbarbhuiya@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 <p align="center">
@@ -76,7 +76,7 @@ class SiddikBarbhuiya:
                      "PhD / Postdoc Discussions"]
 
     def say_hi(self):
-        print("Let's collaborate on water + AI →  siddikab@gmail.com")
+        print("Let's collaborate on water + AI →  siddikbarbhuiya@gmail.com")
 ```
 
 ---
@@ -298,7 +298,7 @@ across South Asia and the Himalayas; nonstationary FFA.
 ## 🤝 &nbsp;Let's Connect
 
 <p align="center">
-  <a href="mailto:siddikab@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:siddikbarbhuiya@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/siddik-barbhuiya-65888871/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://scholar.google.com/citations?user=W1pyDYAAAAAJ&hl=en"><img src="https://img.shields.io/badge/Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" /></a>
   <a href="https://orcid.org/0000-0003-1278-5151"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" /></a>
