@@ -208,16 +208,12 @@ across South Asia and the Himalayas; nonstationary FFA.
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Barbhuiya12&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" />
+<img src="https://github-profile-trophy.vercel.app/?username=Barbhuiya12&theme=tokyonight&no-frame=true&column=7&margin-w=10&margin-h=10" />
 
 <br/><br/>
 
-<!-- Snake contribution animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Barbhuiya12/Barbhuiya12/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Barbhuiya12/Barbhuiya12/output/github-contribution-grid-snake.svg" />
-  <img alt="snake animation" src="https://raw.githubusercontent.com/Barbhuiya12/Barbhuiya12/output/github-contribution-grid-snake.svg" />
-</picture>
+<!-- Profile summary cards (works without any workflow) -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Barbhuiya12&theme=tokyonight" />
 
 </div>
 
