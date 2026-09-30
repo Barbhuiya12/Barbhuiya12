@@ -1,0 +1,35 @@
+name: Refresh profile pulse
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/update_pulse.py
+      - .github/workflows/profile-pulse.yml
+permissions:
+  contents: write
+concurrency:
+  group: profile-pulse
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Generate real public activity snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/update_pulse.py
+      - name: Commit updated snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/github-pulse.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh public GitHub profile pulse'
+            git push
+          fi

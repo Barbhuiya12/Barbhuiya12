@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/research-signal.svg" width="100%" alt="Research signal: physics and machine learning, rainfall–runoff, climate extremes, and trustworthy geospatial AI." />
+</p>
+
+<p align="center">
   <a href="https://barbhuiya12.github.io/">Portfolio</a> &nbsp; / &nbsp;
   <a href="https://scholar.google.com/citations?user=W1pyDYAAAAAJ&amp;hl=en">Google Scholar</a> &nbsp; / &nbsp;
   <a href="https://orcid.org/0000-0003-1278-5151">ORCID</a> &nbsp; / &nbsp;
@@ -35,6 +39,12 @@ My research explores how we can build models that learn from observations while 
 **Currently exploring:** differentiable land-surface modelling for India, deep learning for ungauged basins, and reliable geospatial AI workflows.
 
 ## Selected projects
+
+<p>
+  <a href="https://github.com/Barbhuiya12/geosplit-guard"><img alt="GeoSplit Guard stars" src="https://img.shields.io/github/stars/Barbhuiya12/geosplit-guard?style=flat-square&amp;label=GeoSplit%20Guard&amp;color=14b8a6" /></a>
+  <a href="https://github.com/Barbhuiya12/DuckGIS"><img alt="DuckGIS stars" src="https://img.shields.io/github/stars/Barbhuiya12/DuckGIS?style=flat-square&amp;label=DuckGIS&amp;color=0ea5e9" /></a>
+  <a href="https://github.com/Barbhuiya12/Flood_Resource"><img alt="Flood Resource stars" src="https://img.shields.io/github/stars/Barbhuiya12/Flood_Resource?style=flat-square&amp;label=Flood%20Resource&amp;color=14b8a6" /></a>
+</p>
 
 <table>
   <tr>
@@ -125,6 +135,14 @@ Additional conference contributions at **AGU Fall Meetings** and **EGU General A
 - **[ICCDRH](https://research.iitmandi.ac.in/iccdrh/)** — International Conference on Climate, Disaster Risk & Hydrology. Conference website work for the IIT Mandi research community.
 - **[INCLINE](https://incline.iitmandi.ac.in)** — Indian Climate Information Explorer. Climate information and tools for adaptation, resilience, and community engagement.
 - **[Academic portfolio](https://barbhuiya12.github.io/)** — A closer look at my research, publications, and projects.
+
+## Open-source pulse
+
+<p>
+  <a href="https://github.com/Barbhuiya12?tab=repositories"><img src="assets/github-pulse.svg" width="100%" alt="GitHub public activity snapshot: original repositories, stars, followers, and repository language distribution. Updated daily." /></a>
+</p>
+
+<sub>This snapshot refreshes daily from GitHub’s API. Languages describe original public repositories, not proficiency. [Browse my GitHub activity →](https://github.com/Barbhuiya12?tab=overview)</sub>
 
 ## Let’s collaborate
 

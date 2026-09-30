@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="68" viewBox="0 0 1000 68" role="img" aria-labelledby="title">
+  <title id="title">Research focus: differentiable hydrology, rainfall–runoff learning, climate extremes, and trustworthy geospatial AI.</title>
+  <style>.line{font:18px monospace;fill:#38b2ac;text-anchor:middle}.fallback{display:none}@media(prefers-reduced-motion:reduce){.animated{display:none}.fallback{display:block}}</style>
+  <text x="500" y="40" class="line fallback">&gt; physics + machine learning + water</text>
+  <text x="500" y="40" class="line animated" opacity="1">&gt; physics + machine learning + water
+    <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;.2;.25;.45;.5;.7;.75;.95;1" dur="20s" repeatCount="indefinite"/>
+  </text>
+  <g class="animated">
+    <text x="500" y="40" class="line" opacity="0">&gt; learning rainfall–runoff across catchments
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;.2;.25;.45;.5;.7;.75;.95;1" dur="20s" repeatCount="indefinite"/>
+    </text>
+    <text x="500" y="40" class="line" opacity="0">&gt; understanding climate extremes
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" keyTimes="0;.2;.25;.45;.5;.7;.75;.95;1" dur="20s" repeatCount="indefinite"/>
+    </text>
+    <text x="500" y="40" class="line" opacity="0">&gt; building trustworthy geospatial AI tools
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;.2;.25;.45;.5;.7;.75;.95;1" dur="20s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
