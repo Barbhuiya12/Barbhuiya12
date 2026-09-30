@@ -139,10 +139,14 @@ Additional conference contributions at **AGU Fall Meetings** and **EGU General A
 ## GitHub Activity
 
 <p>
+  <a href="https://github.com/Barbhuiya12?tab=overview"><img src="assets/github-stats.svg" width="100%" alt="Current streak, longest streak in the past year, contributions, active days, stars on original public repositories, and followers." /></a>
+</p>
+
+<p>
   <a href="https://github.com/Barbhuiya12?tab=overview"><img src="assets/github-activity.svg" width="100%" alt="GitHub contribution calendar for the past year, refreshed daily from GitHub." /></a>
 </p>
 
-<sub>Real contribution history from GitHub, refreshed daily. Counts reflect GitHub’s contribution rules and profile visibility—not every commit. [Explore my activity →](https://github.com/Barbhuiya12?tab=overview)</sub>
+<sub>Refreshed daily from real GitHub data. Streaks use the past-year calendar; an unfinished today does not break yesterday’s streak. Counts follow GitHub’s contribution and visibility rules—not every commit. [Explore my activity →](https://github.com/Barbhuiya12?tab=overview)</sub>
 
 ## Let’s collaborate
 

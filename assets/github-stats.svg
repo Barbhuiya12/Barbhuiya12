@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
+<title id="title">GitHub streaks and stats</title>
+<desc id="desc">Real GitHub contribution streaks, contribution totals, active days, repository stars, and followers. Streaks are limited to the past-year calendar.</desc>
+<rect width="1000" height="320" rx="16" fill="#0e1b2b"/>
+<text x="34" y="38" fill="#5eead4" font-family="monospace" font-size="13" letter-spacing="2">CONSISTENCY / STREAKS &amp; STATS</text>
+<text x="34" y="90" fill="#8ca7ba" font-family="monospace" font-size="11" letter-spacing="1">CURRENT STREAK</text>
+<text x="34" y="136" fill="#5eead4" font-family="Arial,sans-serif" font-size="40" font-weight="700">25</text>
+<text x="34" y="159" fill="#7994a9" font-family="Arial,sans-serif" font-size="11">consecutive days</text>
+<text x="364" y="90" fill="#8ca7ba" font-family="monospace" font-size="11" letter-spacing="1">LONGEST STREAK</text>
+<text x="364" y="136" fill="#38bdf8" font-family="Arial,sans-serif" font-size="40" font-weight="700">25</text>
+<text x="364" y="159" fill="#7994a9" font-family="Arial,sans-serif" font-size="11">within past-year calendar</text>
+<text x="694" y="90" fill="#8ca7ba" font-family="monospace" font-size="11" letter-spacing="1">CONTRIBUTIONS</text>
+<text x="694" y="136" fill="#eff7ff" font-family="Arial,sans-serif" font-size="40" font-weight="700">1,071</text>
+<text x="694" y="159" fill="#7994a9" font-family="Arial,sans-serif" font-size="11">past-year calendar</text>
+<text x="34" y="205" fill="#8ca7ba" font-family="monospace" font-size="11" letter-spacing="1">ACTIVE DAYS</text>
+<text x="34" y="251" fill="#eff7ff" font-family="Arial,sans-serif" font-size="40" font-weight="700">107</text>
+<text x="34" y="274" fill="#7994a9" font-family="Arial,sans-serif" font-size="11">past-year calendar</text>
+<text x="364" y="205" fill="#8ca7ba" font-family="monospace" font-size="11" letter-spacing="1">REPOSITORY STARS</text>
+<text x="364" y="251" fill="#eff7ff" font-family="Arial,sans-serif" font-size="40" font-weight="700">3</text>
+<text x="364" y="274" fill="#7994a9" font-family="Arial,sans-serif" font-size="11">original public repositories</text>
+<text x="694" y="205" fill="#8ca7ba" font-family="monospace" font-size="11" letter-spacing="1">FOLLOWERS</text>
+<text x="694" y="251" fill="#eff7ff" font-family="Arial,sans-serif" font-size="40" font-weight="700">13</text>
+<text x="694" y="274" fill="#7994a9" font-family="Arial,sans-serif" font-size="11">public GitHub profile</text>
+<text x="34" y="301" fill="#7994a9" font-family="monospace" font-size="10">DAILY SNAPSHOT · TODAY MAY BE INCOMPLETE · NO INVENTED RANK OR SCORE</text>
+</svg>

@@ -45,6 +45,40 @@ def build(calendar):
     return "\n".join(svg) + "\n"
 
 
+def streaks(calendar, today=None):
+    today = today or datetime.datetime.now(datetime.timezone.utc).date()
+    days = {datetime.date.fromisoformat(day["date"]): day["contributionCount"] for week in calendar["weeks"] for day in week["contributionDays"] if datetime.date.fromisoformat(day["date"]) <= today}
+    current = longest = running = active = 0
+    previous = None
+    for date, count in sorted(days.items()):
+        if count > 0:
+            running = running + 1 if previous == date - datetime.timedelta(days=1) else 1
+            active += 1
+            longest = max(longest, running)
+        else:
+            running = 0
+        previous = date
+    # Today is still in progress: an empty today does not break yesterday's streak.
+    cursor = today if days.get(today, 0) > 0 else today - datetime.timedelta(days=1)
+    while days.get(cursor, 0) > 0:
+        current += 1
+        cursor -= datetime.timedelta(days=1)
+    return current, longest, active
+
+
+def build_stats(calendar, user, repos):
+    current, longest, active = streaks(calendar)
+    stars = sum(repo["stargazers_count"] for repo in repos if not repo["fork"] and not repo.get("private"))
+    metrics = [(current, "CURRENT STREAK", "consecutive days"), (longest, "LONGEST STREAK", "within past-year calendar"), (calendar["totalContributions"], "CONTRIBUTIONS", "past-year calendar"), (active, "ACTIVE DAYS", "past-year calendar"), (stars, "REPOSITORY STARS", "original public repositories"), (user["followers"], "FOLLOWERS", "public GitHub profile")]
+    svg = ['<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">', '<title id="title">GitHub streaks and stats</title>', '<desc id="desc">Real GitHub contribution streaks, contribution totals, active days, repository stars, and followers. Streaks are limited to the past-year calendar.</desc>', '<rect width="1000" height="320" rx="16" fill="#0e1b2b"/>', '<text x="34" y="38" fill="#5eead4" font-family="monospace" font-size="13" letter-spacing="2">CONSISTENCY / STREAKS &amp; STATS</text>']
+    for i, (value, label, note) in enumerate(metrics):
+        x, y = 34 + (i % 3) * 330, 90 + (i // 3) * 115
+        color = "#5eead4" if i == 0 else "#38bdf8" if i == 1 else "#eff7ff"
+        svg += [f'<text x="{x}" y="{y}" fill="#8ca7ba" font-family="monospace" font-size="11" letter-spacing="1">{label}</text>', f'<text x="{x}" y="{y + 46}" fill="{color}" font-family="Arial,sans-serif" font-size="40" font-weight="700">{value:,}</text>', f'<text x="{x}" y="{y + 69}" fill="#7994a9" font-family="Arial,sans-serif" font-size="11">{note}</text>']
+    svg += ['<text x="34" y="301" fill="#7994a9" font-family="monospace" font-size="10">DAILY SNAPSHOT · TODAY MAY BE INCOMPLETE · NO INVENTED RANK OR SCORE</text>', '</svg>']
+    return "\n".join(svg) + "\n"
+
+
 if __name__ == "__main__":
     data = json.loads(subprocess.check_output(["gh", "api", "graphql", "-f", "query=" + QUERY], text=True))
     if data.get("errors"):
@@ -52,4 +86,8 @@ if __name__ == "__main__":
     calendar = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
     target = pathlib.Path(__file__).resolve().parents[1] / "assets" / "github-activity.svg"
     target.write_text(build(calendar), encoding="utf-8")
-    print("Updated GitHub activity calendar from actual contribution data.")
+    user = json.loads(subprocess.check_output(["gh", "api", "users/Barbhuiya12"], text=True))
+    pages = json.loads(subprocess.check_output(["gh", "api", "users/Barbhuiya12/repos?per_page=100&type=owner", "--paginate", "--slurp"], text=True))
+    repos = [repo for page in pages for repo in page]
+    target.with_name("github-stats.svg").write_text(build_stats(calendar, user, repos), encoding="utf-8")
+    print("Updated GitHub activity, streaks, and stats from actual public data.")
