@@ -136,13 +136,13 @@ Additional conference contributions at **AGU Fall Meetings** and **EGU General A
 - **[INCLINE](https://incline.iitmandi.ac.in)** — Indian Climate Information Explorer. Climate information and tools for adaptation, resilience, and community engagement.
 - **[Academic portfolio](https://barbhuiya12.github.io/)** — A closer look at my research, publications, and projects.
 
-## Open-source pulse
+## GitHub Activity
 
 <p>
-  <a href="https://github.com/Barbhuiya12?tab=repositories"><img src="assets/github-pulse.svg" width="100%" alt="GitHub public activity snapshot: original repositories, stars, followers, and repository language distribution. Updated daily." /></a>
+  <a href="https://github.com/Barbhuiya12?tab=overview"><img src="assets/github-activity.svg" width="100%" alt="GitHub contribution calendar for the past year, refreshed daily from GitHub." /></a>
 </p>
 
-<sub>This snapshot refreshes daily from GitHub’s API. Languages describe original public repositories, not proficiency. [Browse my GitHub activity →](https://github.com/Barbhuiya12?tab=overview)</sub>
+<sub>Real contribution history from GitHub, refreshed daily. Counts reflect GitHub’s contribution rules and profile visibility—not every commit. [Explore my activity →](https://github.com/Barbhuiya12?tab=overview)</sub>
 
 ## Let’s collaborate
 

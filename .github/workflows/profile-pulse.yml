@@ -1,16 +1,16 @@
-name: Refresh profile pulse
+name: Refresh GitHub activity
 on:
   schedule:
     - cron: '17 4 * * *'
   workflow_dispatch:
   push:
     paths:
-      - scripts/update_pulse.py
+      - scripts/update_activity.py
       - .github/workflows/profile-pulse.yml
 permissions:
   contents: write
 concurrency:
-  group: profile-pulse
+  group: profile-activity
   cancel-in-progress: false
 jobs:
   refresh:
@@ -20,16 +20,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-      - name: Generate real public activity snapshot
+      - name: Generate GitHub contribution calendar
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python scripts/update_pulse.py
+        run: python scripts/update_activity.py
       - name: Commit updated snapshot
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/github-pulse.svg
+          git add assets/github-activity.svg
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh public GitHub profile pulse'
+            git commit -m 'Refresh GitHub contribution activity'
             git push
           fi
