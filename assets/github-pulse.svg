@@ -12,13 +12,13 @@
 <text x="697" y="133" fill="#8ca7ba" font-family="monospace" font-size="11" letter-spacing="1">GITHUB FOLLOWERS</text>
 <path d="M34 162H966" stroke="#273a4b"/>
 <text x="34" y="194" fill="#a0b9cb" font-family="monospace" font-size="11">REPOSITORY LANGUAGES / ORIGINAL PUBLIC REPOS</text>
-<rect x="34.00" y="216" width="558.00" height="13" fill="#5eead4"/>
+<rect x="34.00" y="216" width="507.27" height="13" fill="#5eead4"/>
 <circle cx="34" cy="257" r="4" fill="#5eead4"/>
 <text x="45" y="261" fill="#c1d4e2" font-family="Arial,sans-serif" font-size="12">Jupyter Notebook · 6</text>
-<rect x="592.00" y="216" width="279.00" height="13" fill="#38bdf8"/>
+<rect x="541.27" y="216" width="338.18" height="13" fill="#38bdf8"/>
 <circle cx="219" cy="257" r="4" fill="#38bdf8"/>
-<text x="230" y="261" fill="#c1d4e2" font-family="Arial,sans-serif" font-size="12">Python · 3</text>
-<rect x="871.00" y="216" width="93.00" height="13" fill="#a5b4fc"/>
+<text x="230" y="261" fill="#c1d4e2" font-family="Arial,sans-serif" font-size="12">Python · 4</text>
+<rect x="879.45" y="216" width="84.55" height="13" fill="#a5b4fc"/>
 <circle cx="404" cy="257" r="4" fill="#a5b4fc"/>
 <text x="415" y="261" fill="#c1d4e2" font-family="Arial,sans-serif" font-size="12">HTML · 1</text>
 <text x="34" y="302" fill="#7994a9" font-family="monospace" font-size="10">REAL PUBLIC DATA · UPDATED DAILY · NO THIRD-PARTY STATS SERVICE</text>
